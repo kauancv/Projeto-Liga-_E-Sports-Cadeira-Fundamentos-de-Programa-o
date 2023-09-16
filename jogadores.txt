@@ -1,0 +1,18 @@
+10|Lucas|Lucaoz|Brasil|19|Atacante|2300.00
+11|Pedro|Pedrinho|Brasil|29|Lateral|2400.00
+12|Marcos|Marcola|Brasil|30|Zagueiro|4000.00
+13|Mateus|Mathz|Brasil|34|Goleiro|2000.00
+14|Gabriel|Gabigol|Brasil|25|Atacante|4000.00
+15|Alisson|Alisson V|Argentina|39|Goleiro|9000.00
+16|Alves|Alvezz|Russia|40|Lateral|3500.00
+17|Mario|Mario R|Inglaterra|18|Zagueiro|1000.00
+18|Alberto|A Medeiros|Brasil|39|Goleiro|9000.00
+19|Lopes|P Lopes|Africa|34|Atacante|1000.00
+20|Higor|Higor A|Brasil|20|Lateral|1000.00
+21|Kauan|Kauan C|Brasil|34|Zagueiro|3000.00
+22|Robson|Robson S|Brasil|23|Goleiro|1200.00
+23|Marci|Marci T|Franca|17|Lateral|2100.00
+24|Pedro|Pedrinho|Brasil|23|Atacante|1000.00
+25|Kamila|Kami|Brasil|19|Atacante|2000.00
+26|Marcos|M Pedro|Brasil|34|Zagueiro|1000.00
+27|Oscar|Oscar J|Franca|17|Goleiro|1200.00

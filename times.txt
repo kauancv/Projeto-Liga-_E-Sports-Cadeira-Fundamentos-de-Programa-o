@@ -1,0 +1,5 @@
+1001|4|Flamengo|Brasil|8/10/2000
+1002|5|Vasco|Brasil|7/4/2002
+1003|5|Gremio|Brasil|9/11/2004
+1004|4|Botafogo|Brasil|9/8/2012
+1|11|Kamila|Brasil|5/11/2023
