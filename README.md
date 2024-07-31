@@ -1,11 +1,14 @@
 Sistema de Liga E-Sports
+
 Introdução
+
 Este projeto foi desenvolvido como trabalho final para a disciplina de Fundamentos de Programação. O objetivo é criar um programa que simule um sistema de registro de resultados de uma liga de e-sports, permitindo o cadastro e gerenciamento detalhado das partidas, incluindo informações sobre os times participantes, os jogadores, os placares e os destaques individuais.
 
 Descrição do Projeto
 O programa permite a gestão completa de uma liga de e-sports, incluindo o cadastro de times, jogadores e partidas. Ele também oferece funcionalidades para modificar dados, buscar informações específicas e calcular estatísticas relevantes.
 
 Principais Funcionalidades
+
 Cadastrar um Time: Permite ao usuário inserir os dados de um novo time no sistema, incluindo nome, país de origem, data de criação e número de jogadores.
 Alterar Informações de um Time: Permite ao usuário escolher um time existente e modificar seus dados, como nome, país de origem, data de criação ou número de jogadores.
 Cadastrar um Jogador: Permite ao usuário inserir os dados de um novo jogador no sistema.
@@ -45,5 +48,7 @@ ID do time visitante
 Data e hora da partida
 Placar final (pontuação dos times)
 Destaque individual da partida (ID do jogador que se destacou)
+
 Como Usar
+
 Para usar o programa, compile o código-fonte e execute o executável. O menu do programa guiará você através das operações disponíveis, permitindo que você cadastre e gerencie times, jogadores e partidas, além de buscar informações específicas e calcular estatísticas.
