@@ -10,17 +10,29 @@ O programa permite a gestão completa de uma liga de e-sports, incluindo o cadas
 Principais Funcionalidades
 
 Cadastrar um Time: Permite ao usuário inserir os dados de um novo time no sistema, incluindo nome, país de origem, data de criação e número de jogadores.
+
 Alterar Informações de um Time: Permite ao usuário escolher um time existente e modificar seus dados, como nome, país de origem, data de criação ou número de jogadores.
+
 Cadastrar um Jogador: Permite ao usuário inserir os dados de um novo jogador no sistema.
+
 Alterar Informações de um Jogador: Permite ao usuário escolher um jogador existente e modificar seus dados, como nome, apelido, país de origem, idade ou posição de jogo.
+
 Registrar uma Partida: Permite ao usuário selecionar dois times, informar a data e hora da partida, o placar final e o destaque individual da partida.
+
 Buscar Partidas por Time: Permite ao usuário inserir o ID de um time e exibir todas as partidas em que o time participou.
+
 Buscar Partidas por Período: Permite ao usuário inserir uma data de início e uma data de fim e exibir todas as partidas realizadas dentro desse período.
+
 Listar Todos os Times: Exibe informações sobre todos os times no sistema, incluindo o número de jogadores.
+
 Listar Todos os Jogadores: Exibe informações sobre todos os jogadores no sistema.
+
 Calcular a Média de Idade dos Jogadores: Exibe a média de idade de todos os jogadores cadastrados.
+
 Preço Total do Time: Calcula o salário total de todos os jogadores de um time.
+
 Sair do Programa: Encerra a execução do programa.
+
 Estrutura de Dados
 O programa utiliza tipos estruturados para representar times, jogadores e partidas:
 
