@@ -1,66 +1,63 @@
-Sistema de Liga E-Sports
+# Sistema de Liga E-Sports
 
-Introdução
+## Introdução
 
-Este projeto foi desenvolvido como trabalho final para a disciplina de Fundamentos de Programação. O objetivo é criar um programa que simule um sistema de registro de resultados de uma liga de e-sports, permitindo o cadastro e gerenciamento detalhado das partidas, incluindo informações sobre os times participantes, os jogadores, os placares e os destaques individuais.
+Este projeto foi desenvolvido como trabalho final para a disciplina de Fundamentos de Programação. O objetivo é criar um programa em C que simule um sistema de registro de resultados de uma liga de e-sports. O sistema permite o cadastro e gerenciamento detalhado das partidas, incluindo informações sobre os times participantes, os jogadores, os placares e os destaques individuais.
 
-Descrição do Projeto
-O programa permite a gestão completa de uma liga de e-sports, incluindo o cadastro de times, jogadores e partidas. Ele também oferece funcionalidades para modificar dados, buscar informações específicas e calcular estatísticas relevantes.
+## Descrição do Projeto
 
-Principais Funcionalidades
+O programa oferece uma gestão completa para uma liga de e-sports, incluindo funcionalidades para:
 
-Cadastrar um Time: Permite ao usuário inserir os dados de um novo time no sistema, incluindo nome, país de origem, data de criação e número de jogadores.
+- Cadastro e gerenciamento de times e jogadores
+- Registro e acompanhamento de partidas
+- Cálculo de estatísticas relevantes
 
-Alterar Informações de um Time: Permite ao usuário escolher um time existente e modificar seus dados, como nome, país de origem, data de criação ou número de jogadores.
+## Principais Funcionalidades
 
-Cadastrar um Jogador: Permite ao usuário inserir os dados de um novo jogador no sistema.
+- **Cadastrar um Time:** Inserção de dados de novos times, como nome, país de origem, data de criação e número de jogadores.
+- **Alterar Informações de um Time:** Modificação dos dados de times existentes.
+- **Cadastrar um Jogador:** Inserção de novos jogadores no sistema.
+- **Alterar Informações de um Jogador:** Modificação dos dados dos jogadores existentes.
+- **Registrar uma Partida:** Registro de partidas, incluindo seleções de times, data, placar e destaque individual.
+- **Buscar Partidas por Time:** Exibição de partidas em que um time específico participou.
+- **Buscar Partidas por Período:** Exibição de partidas realizadas dentro de um intervalo de datas.
+- **Listar Todos os Times:** Exibição de todos os times cadastrados e o número de jogadores de cada um.
+- **Listar Todos os Jogadores:** Exibição de todos os jogadores cadastrados.
+- **Calcular a Média de Idade dos Jogadores:** Cálculo da média de idade dos jogadores cadastrados.
+- **Preço Total do Time:** Cálculo do salário total dos jogadores de um time.
+- **Sair do Programa:** Encerra a execução do programa.
 
-Alterar Informações de um Jogador: Permite ao usuário escolher um jogador existente e modificar seus dados, como nome, apelido, país de origem, idade ou posição de jogo.
+## Estrutura de Dados
 
-Registrar uma Partida: Permite ao usuário selecionar dois times, informar a data e hora da partida, o placar final e o destaque individual da partida.
+### Times
 
-Buscar Partidas por Time: Permite ao usuário inserir o ID de um time e exibir todas as partidas em que o time participou.
+- **ID do Time:** Número de identificação único
+- **Nome do Time:** Nome do time
+- **País de Origem:** País de origem do time
+- **Data de Criação:** Data em que o time foi criado
+- **Número de Jogadores:** Quantidade de jogadores no time
 
-Buscar Partidas por Período: Permite ao usuário inserir uma data de início e uma data de fim e exibir todas as partidas realizadas dentro desse período.
+### Jogadores
 
-Listar Todos os Times: Exibe informações sobre todos os times no sistema, incluindo o número de jogadores.
+- **ID do Jogador:** Número de identificação único
+- **Nome do Jogador:** Nome do jogador
+- **Apelido:** Apelido do jogador
+- **País de Origem:** País de origem do jogador
+- **Idade:** Idade do jogador
+- **Posição de Jogo:** Posição em que o jogador atua
+- **Salário:** Salário do jogador
 
-Listar Todos os Jogadores: Exibe informações sobre todos os jogadores no sistema.
+### Partidas
 
-Calcular a Média de Idade dos Jogadores: Exibe a média de idade de todos os jogadores cadastrados.
+- **ID da Partida:** Número de identificação único
+- **ID do Time da Casa:** ID do time que joga em casa
+- **ID do Time Visitante:** ID do time visitante
+- **Data e Hora da Partida:** Data e hora em que a partida ocorreu
+- **Placar Final:** Pontuação final dos times
+- **Destaque Individual da Partida:** ID do jogador que se destacou
 
-Preço Total do Time: Calcula o salário total de todos os jogadores de um time.
+## Como Usar
 
-Sair do Programa: Encerra a execução do programa.
-
-Estrutura de Dados
-O programa utiliza tipos estruturados para representar times, jogadores e partidas:
-
-Times:
-
-ID do time (número de identificação único)
-Nome do time
-País de origem
-Data de criação
-Número de jogadores
-Jogadores:
-
-ID do jogador (número de identificação único)
-Nome do jogador
-Apelido
-País de origem
-Idade
-Posição de jogo
-Salário
-Partidas:
-
-ID da partida (número de identificação único)
-ID do time da casa
-ID do time visitante
-Data e hora da partida
-Placar final (pontuação dos times)
-Destaque individual da partida (ID do jogador que se destacou)
-
-Como Usar
-
-Para usar o programa, compile o código-fonte e execute o executável. O menu do programa guiará você através das operações disponíveis, permitindo que você cadastre e gerencie times, jogadores e partidas, além de buscar informações específicas e calcular estatísticas.
+1. **Compile o código-fonte** usando um compilador C, como `gcc`:
+   ```bash
+   gcc -o sistema_liga_esports main.c
